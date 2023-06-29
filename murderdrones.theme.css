@@ -11,6 +11,11 @@
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 
+@font-face {
+  font-family: 'SgaSmoothRegular';
+  src: url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf') format('truetype');
+}
+
 :root {
   --main-color: #8927E6;
   --hover-color: #4B1EB3;
