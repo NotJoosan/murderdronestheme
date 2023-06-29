@@ -68,7 +68,7 @@
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: SGA Smooth Regular;
+  --main-font: 'SgaSmoothRegular', sans-serif;
   --code-font: Consolas;
   --channels-width: 220px;
   --members-width: 240px;
