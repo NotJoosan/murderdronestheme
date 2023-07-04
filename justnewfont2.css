@@ -1,0 +1,75 @@
+**
+
+Font imports must be at the top, above all other css.
+Locally installed fonts and online hosted fonts do not require importing.
+The latter can be used by first setting the font with the @font-face rule.
+Import custom font Lacquer, type is sans-serif.
+Syntax: @import url('font-link');
+Syntax: @import 'font-link';
+*/
+@import url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf');
+/**
+
+Using an online hosted font with the @font-face rule.
+*/
+@font-face {
+font-family: 'Optimus Princeps';
+src: url('**
+
+Font imports must be at the top, above all other css.
+Locally installed fonts and online hosted fonts do not require importing.
+The latter can be used by first setting the font with the @font-face rule.
+Import custom font Lacquer, type is sans-serif.
+Syntax: @import url('font-link');
+Syntax: @import 'font-link';
+*/
+@import url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf');
+/**
+
+Using an online hosted font with the @font-face rule.
+*/
+@font-face {
+font-family: 'Optimus Princeps';
+src: url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf');
+}
+body, div, span, textarea, ::-webkit-input-placeholder {
+/**
+* Changing fonts.
+* Syntax: font-family: 'font name', fallbacks?, font type?;
+* Fallbacks are optional, font type is optional but helps the font render properly.
+* Example: font-family: 'Whitney', 'Arial', sans-serif;
+*/
+font-family: 'Lacquer', sans-serif;
+}
+
+.hljs,
+.inline,
+.hljs :-webkit-any(ol, li, span),
+.editor-wrapper :-webkit-any(textarea, div, span) {
+/**
+* Keep Custom CSS editor and code related parts untouched.
+* Avoids issues when working with the Custom CSS editor.
+*/
+font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}');
+}
+body, div, span, textarea, ::-webkit-input-placeholder {
+/**
+* Changing fonts.
+* Syntax: font-family: 'font name', fallbacks?, font type?;
+* Fallbacks are optional, font type is optional but helps the font render properly.
+* Example: font-family: 'Whitney', 'Arial', sans-serif;
+*/
+font-family: 'Lacquer', sans-serif;
+}
+
+.hljs,
+.inline,
+.hljs :-webkit-any(ol, li, span),
+.editor-wrapper :-webkit-any(textarea, div, span) {
+/**
+* Keep Custom CSS editor and code related parts untouched.
+* Avoids issues when working with the Custom CSS editor.
+*/
+font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}
