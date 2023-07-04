@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'SgaSmoothRegular';
+  src: url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf') format('truetype');
+}
+
+:root {
+  --main-font: 'SgaSmoothRegular', sans-serif;
+}
