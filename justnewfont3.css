@@ -1,0 +1,17 @@
+@import url(https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/justnewfont2.css);
+@font-face {
+  font-family: 'SgaSmoothRegular';
+  src: url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf') format('truetype');
+}
+
+:root {
+--Chat-Font-Used: 'SgaSmoothRegular', normal ;
+--Chat-Font-Size: 15.5px;
+}
+:not([class="hljs"]):not(code){
+font-family: var(--Chat-Font-Used)!important;
+}
+
+.markup:not(code) {
+font-size: var(--Chat-Font-Size)!important;
+}
