@@ -1,3 +1,16 @@
+/**
+ * @name Murder Drones
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
+
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+
 @font-face {
   font-family: 'SgaSmoothRegular';
   src: url('https://raw.githubusercontent.com/NotJoosan/murderdronestheme/main/SgaSmoothRegular-DO0Y3.ttf') format('truetype');
@@ -6,3 +19,4 @@
 :root {
   --main-font: 'SgaSmoothRegular', sans-serif;
 }
+
